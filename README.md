@@ -29,12 +29,12 @@ Rather than using an existing engine like Unity or Unreal, this project focuses 
 ## ✅ Development Checklist (In Order)
 
 ### 1️⃣ Project Foundation
-- [ ] Create Git repository
-- [ ] Set up CMake project
-- [ ] Confirm build works on all machines
-- [ ] Define folder structure
-- [ ] Add `.gitignore`
-- [ ] Create basic `main.cpp`
+- [x] Create Git repository
+- [x] Set up CMake project
+- [x] Confirm build works on all machines
+- [x] Define folder structure
+- [x] Add `.gitignore`
+- [x] Create basic `main.cpp`
 
 ---
 
