@@ -6,25 +6,25 @@ The engine is designed specifically to support a basic first-person shooter (FPS
 
 Rather than using an existing engine like Unity or Unreal, this project focuses on learning and implementing core engine systems manually, including rendering, input handling, physics, and game logic.
 
-This is not meant to be a production-ready engine. It is a learning engine built to:
+## This is not meant to be a production-ready engine. It is a learning engine built to:
 
-Understand low-level systems
+- Understand low-level systems
 
-Practice engine architecture
+- Practice engine architecture
 
-Learn graphics programming
+- Learn graphics programming
 
-Strengthen C++ and systems programming skills
+- Strengthen C++ and systems programming skills
 
-Goals
+## Goals
 
-Build a minimal but complete game engine
+- Build a minimal but complete game engine
 
-Support a playable first-person shooter demo
+- Support a playable first-person shooter demo
 
-Learn how real engines are structured internally
+- Learn how real engines are structured internally
 
-Avoid black-box abstractions as much as possible
+- Avoid black-box abstractions as much as possible
 
 ## ✅ Development Checklist (In Order)
 
