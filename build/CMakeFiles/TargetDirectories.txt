@@ -1,0 +1,3 @@
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles/fpsGameEngine.dir
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles/edit_cache.dir
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles/rebuild_cache.dir
