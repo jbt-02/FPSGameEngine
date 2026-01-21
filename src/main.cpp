@@ -1,6 +1,10 @@
 #include "config.h"
 #include <iostream>
 #include <vector>
+#include <glm/glm/glm.hpp>
+#include <glm/glm/vec3.hpp>
+#include <glm/glm/gtc/matrix_transform.hpp>
+#include <glm/glm/gtc/type_ptr.hpp>
 
 void processInput(GLFWwindow *window);
 
@@ -9,6 +13,8 @@ const char* vertexShaderSource = R"(
 
 //Input var from vertex buffer (location = 0)
 layout (location = 0) in vec3 aPos;
+
+uniform mat4 transform;
 
 void main(){
     //gl_pos is a built in output var
@@ -63,23 +69,26 @@ int main(void)
     glViewport(0,0,800,600);
 
     float vertices[] = {
-        0.5f, 0.5f, 0.0f, //top right
-        0.5f, -0.5f, 0.0f, //bottom right
-        -0.5f, -0.5f, 0.0f, //bottom left
-        -0.5f, 0.5f, 0.0f //top left
+        -0.5f, -0.5f, 0.0f,
+        0.5f, -0.5f, 0.0f, 
+        0.0f, 0.5f, 0.0f, 
     };
 
+    /*
+    
+    
     unsigned int indices[] = {
         0,1,3, //first triangle
         1,2,3 //second triangle
     };
-
+    
+    */
     unsigned int VAO, VBO, EBO;
 
     //generate object IDS
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
-    glGenBuffers(1,&EBO);
+   // glGenBuffers(1,&EBO);
 
     //Bind VAO first (it will store config)
     glBindVertexArray(VAO);
@@ -92,8 +101,8 @@ int main(void)
 
 
     //Element Buffer Object
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+    //glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    //glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
     //Tell OPENGL how to read vertex Data
     //Attribute location, Num of values per vertex (x,y,z), type of each val, normalize?, stride (dist between vertices), offset in buffer
@@ -137,11 +146,14 @@ int main(void)
         //Use shader program
         glUseProgram(shaderProgram);
 
+
+
         //Bind VAO (contains VBO + attribute setup)
         glBindVertexArray(VAO);
 
         //Draw Triangle
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+        //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
@@ -152,7 +164,7 @@ int main(void)
 
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
-    glDeleteBuffers(1,&EBO);
+    //glDeleteBuffers(1,&EBO);
     glDeleteProgram(shaderProgram);
 
 

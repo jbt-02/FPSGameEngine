@@ -257,6 +257,9 @@ fpsGameEngine_SOURCE_DIR:STATIC=/Users/jacobtrachsel/IdeaProjects/FPSGameEngine
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/opt/homebrew/lib/cmake/glfw3
 
+//The directory containing a CMake configuration file for glm.
+glm_DIR:PATH=glm_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
