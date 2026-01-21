@@ -83,6 +83,14 @@
 					"path" : "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies"
 				},
 				{
+					"backtrace" : 3,
+					"path" : "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src"
+				},
+				{
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/include"
@@ -122,6 +130,14 @@
 				{
 					"backtrace" : 3,
 					"path" : "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src"
 				},
 				{
 					"backtrace" : 2,

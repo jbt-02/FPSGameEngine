@@ -374,7 +374,22 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -653,9 +668,11 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -1076,8 +1093,11 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
   /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec3.hpp \
   /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec4.hpp \
   /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/config.h
+  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/config.h \
+  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image.h
 
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/packing.hpp:
 
@@ -1265,15 +1285,33 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double4x3_precision.hpp:
 
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec4.inl:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x4.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x3.hpp:
+
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x2_precision.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x4_precision.hpp:
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x2.hpp:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x4.hpp:
 
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x3.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_clip_space.inl:
+
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vector_relational.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/trigonometric.hpp:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/matrix.hpp:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_float3x3.hpp:
 
@@ -1288,8 +1326,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/vector_int4.hpp:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/vector_int3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unwrap_ref.h:
 
@@ -1321,10 +1357,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat4x2.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x3_precision.hpp:
-
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat2x4.hpp:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/setup.hpp:
@@ -1347,10 +1379,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h:
-
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double4x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h:
@@ -1368,6 +1396,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
 
@@ -1431,15 +1461,23 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/compose.h:
 
@@ -1471,10 +1509,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
@@ -1482,8 +1516,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
@@ -1623,6 +1655,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_max_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
@@ -1662,14 +1696,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
 
@@ -1732,8 +1758,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/config.h:
 
@@ -1911,8 +1935,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/trigonometric.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/mergeable.h:
@@ -1926,6 +1948,10 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x3_precision.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
 
@@ -1941,15 +1967,35 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/data.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/concepts.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat3x3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h:
 
@@ -1991,9 +2037,9 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/strings.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/strings.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/quaternion_float.hpp:
 
@@ -2007,7 +2053,43 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
 
@@ -2057,8 +2139,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x2_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
@@ -2101,13 +2181,13 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/day.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem:
+
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/quaternion_double_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/calendar.h:
 
@@ -2139,10 +2219,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec4.inl:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x4_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
@@ -2156,6 +2232,10 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/vector_int4_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x4_precision.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
@@ -2172,10 +2252,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_float3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
@@ -2240,8 +2316,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
@@ -2311,6 +2385,10 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
@@ -2341,6 +2419,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
@@ -2367,8 +2447,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_clip_space.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
@@ -2381,10 +2459,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/voidify.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/monthday.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
@@ -2396,6 +2470,18 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec1.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted.h:
+
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/vector_int3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/concepts.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
 
@@ -2471,10 +2557,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
@@ -2491,21 +2573,11 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h:
 
@@ -2541,6 +2613,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
@@ -2549,15 +2623,13 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/next.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
@@ -2617,8 +2689,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/matrix.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h:
@@ -2649,17 +2719,13 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat2x3.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/geometric.hpp:
 
@@ -2688,6 +2754,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
 
@@ -2731,7 +2799,9 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x2.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
@@ -2763,14 +2833,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
 
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec4.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double2x3_precision.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/exponential.hpp:
@@ -2789,8 +2851,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
@@ -2805,15 +2865,11 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
-
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat4x4.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/ext/matrix_double3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
@@ -2829,6 +2885,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:
@@ -2841,8 +2899,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
@@ -2853,11 +2909,9 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
-
-/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat3x3.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
 
@@ -2897,10 +2951,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
 
 /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/glad.c:
@@ -2912,8 +2962,6 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
 
@@ -2932,6 +2980,12 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: /Users/jacobtrachsel/IdeaProjects/F
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
 
