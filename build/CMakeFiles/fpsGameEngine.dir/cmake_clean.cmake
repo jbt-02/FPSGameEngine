@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o"
   "CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o.d"
+  "CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.o"
+  "CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.o.d"
   "CMakeFiles/fpsGameEngine.dir/src/glad.c.o"
   "CMakeFiles/fpsGameEngine.dir/src/glad.c.o.d"
   "CMakeFiles/fpsGameEngine.dir/src/main.cpp.o"

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/glad.c" "CMakeFiles/fpsGameEngine.dir/src/glad.c.o" "gcc" "CMakeFiles/fpsGameEngine.dir/src/glad.c.o.d"
   "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.cpp" "CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o" "gcc" "CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o.d"
+  "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/Camera/Camera.cpp" "CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.o" "gcc" "CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.o.d"
   "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/main.cpp" "CMakeFiles/fpsGameEngine.dir/src/main.cpp.o" "gcc" "CMakeFiles/fpsGameEngine.dir/src/main.cpp.o.d"
   "/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image_impl.cpp" "CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o" "gcc" "CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o.d"
   )

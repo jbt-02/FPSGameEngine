@@ -153,6 +153,30 @@ shader/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.s
 .PHONY : shader/Shader.cpp.s
 
+src/Camera/Camera.o: src/Camera/Camera.cpp.o
+.PHONY : src/Camera/Camera.o
+
+# target to build an object file
+src/Camera/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.o
+.PHONY : src/Camera/Camera.cpp.o
+
+src/Camera/Camera.i: src/Camera/Camera.cpp.i
+.PHONY : src/Camera/Camera.i
+
+# target to preprocess a source file
+src/Camera/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.i
+.PHONY : src/Camera/Camera.cpp.i
+
+src/Camera/Camera.s: src/Camera/Camera.cpp.s
+.PHONY : src/Camera/Camera.s
+
+# target to generate assembly for a file
+src/Camera/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/Camera/Camera.cpp.s
+.PHONY : src/Camera/Camera.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... shader/Shader.o"
 	@echo "... shader/Shader.i"
 	@echo "... shader/Shader.s"
+	@echo "... src/Camera/Camera.o"
+	@echo "... src/Camera/Camera.i"
+	@echo "... src/Camera/Camera.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
