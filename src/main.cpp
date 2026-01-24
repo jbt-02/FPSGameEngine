@@ -4,9 +4,9 @@
 #include <glm/glm/vec3.hpp>
 #include <glm/glm/gtc/matrix_transform.hpp>
 #include <glm/glm/gtc/type_ptr.hpp>
+#include <../shader/Shader.h>
+#include <stb_image.h>
 
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -28,6 +28,8 @@ float fov = 45.0f;
 float deltaTime = 0.0;
 float lastFrame = 0.0f;
 
+
+/*
 const char* vertexShaderSource = R"(
 #version 330 core
 
@@ -63,7 +65,7 @@ void main(){
 )";
 
 
-
+*/
 
 int main(void)
 {
@@ -95,6 +97,8 @@ int main(void)
         std::cerr << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
+
+    Shader boxShader("shader/cube.vert", "shader/cube.frag");
 
      // Set callback
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
@@ -203,29 +207,6 @@ int main(void)
     glVertexAttribPointer(1,2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
-
-    //unbind VAO
-    //glBindVertexArray(0);
-
-    //Compile Vertex Shader
-    unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
-    glCompileShader(vertexShader);
-
-    //Compile Fragment Shader
-    unsigned int fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
-    glCompileShader(fragmentShader);
-
-    //Link Shaders into program
-    unsigned int shaderProgram = glCreateProgram();
-    glAttachShader(shaderProgram, vertexShader);
-    glAttachShader(shaderProgram, fragmentShader);
-    glLinkProgram(shaderProgram);
-
-    glDeleteShader(vertexShader);
-    glDeleteShader(fragmentShader);
-
     unsigned int texture;
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_2D, texture);
@@ -249,9 +230,9 @@ int main(void)
     }
     stbi_image_free(data);
 
-    glUseProgram(shaderProgram);
-    glUniform1i( glGetUniformLocation(shaderProgram, "texture1"), 0);
+    boxShader.use();
 
+    glUniform1i( glGetUniformLocation(boxShader.ID, "texture1"), 0);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
@@ -274,11 +255,10 @@ int main(void)
         glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
         glm::mat4 projection = glm::perspective(glm::radians(fov), (float) fbWidth / (float) fbHeight, 0.1f, 100.0f);
 
-         //Use shader program
-        glUseProgram(shaderProgram);
+        boxShader.use();
 
-        glUniformMatrix4fv(glGetUniformLocation(shaderProgram,"view"),1,GL_FALSE,glm::value_ptr(view));
-        glUniformMatrix4fv(glGetUniformLocation(shaderProgram,"projection"),1,GL_FALSE,glm::value_ptr(projection));
+        glUniformMatrix4fv(glGetUniformLocation(boxShader.ID,"view"),1,GL_FALSE,glm::value_ptr(view));
+        glUniformMatrix4fv(glGetUniformLocation(boxShader.ID,"projection"),1,GL_FALSE,glm::value_ptr(projection));
 
         //Bind VAO (contains VBO + attribute setup)
         glBindVertexArray(VAO);
@@ -291,7 +271,7 @@ int main(void)
 
             model = glm::rotate(model, (float)glfwGetTime(), axis);
 
-            glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glUniformMatrix4fv(glGetUniformLocation(boxShader.ID, "model"), 1, GL_FALSE, glm::value_ptr(model));
 
             glDrawArrays(GL_TRIANGLES, 0, 36);
         }
@@ -306,7 +286,6 @@ int main(void)
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
     //glDeleteBuffers(1,&EBO);
-    glDeleteProgram(shaderProgram);
 
 
     glfwTerminate();

@@ -1,29 +1,49 @@
-CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/main.cpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/config.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
+CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o: \
+  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.cpp \
+  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glad/glad.h \
+  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/KHR/khrplatform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
+  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/time_point.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/invoke.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/apply_cv.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_reference.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/enable_if.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
@@ -32,6 +52,15 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/invoke.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/apply_cv.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_reference.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/decay.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h \
@@ -132,73 +161,7 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h \
@@ -231,14 +194,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/relation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min_element.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/identity.h \
@@ -261,9 +218,17 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/strings.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h \
@@ -281,6 +246,10 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h \
@@ -293,6 +262,7 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h \
@@ -337,6 +307,7 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/next.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/prev.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h \
@@ -369,6 +340,14 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h \
@@ -419,12 +398,22 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/time_point.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
@@ -456,6 +445,7 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/common_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
@@ -653,6 +643,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_if.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h \
@@ -687,11 +679,7 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/locale.h \
@@ -699,6 +687,8 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
@@ -709,6 +699,10 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf \
@@ -740,6 +734,15 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
@@ -748,263 +751,5 @@ CMakeFiles/fpsGameEngine.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glad/glad.h \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/KHR/khrplatform.h \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/GLFW/glfw3.h \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/glm.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/_fixes.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/setup.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../simd/platform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/fwd.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/qualifier.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_bool2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_vec2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec2.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/./compute_vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_bool2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_float2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_float2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_double2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_double2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_int2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_int2_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_int2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/setup.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_uint2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_uint2_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/scalar_uint_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_bool3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_vec3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec3.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/compute_vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/compute_vector_decl.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/_vectorize.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_bool3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_float3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_float3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_double3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_double3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_int3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_int3_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_int3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_uint3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_uint3_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_uint3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vec4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_bool4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_vec4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec4.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_bool4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_float4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_float4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_double4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_double4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_int4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_int4_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_int4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_uint4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_uint4_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_uint4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat2x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double2x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat2x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat2x2.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../matrix.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat2x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double2x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat2x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat2x3.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double2x3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float2x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float2x3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat2x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double2x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat2x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat2x4.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double2x4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float2x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float2x4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat3x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double3x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat3x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat3x2.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double3x2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float3x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float3x2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat3x3.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_common.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_vector_relational.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/compute_common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_vec1.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double3x3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float3x3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat3x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double3x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat3x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat3x4.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double3x4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float3x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float3x4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat4x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double4x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat4x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat4x2.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double4x2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float4x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float4x2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat4x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double4x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat4x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat4x3.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double4x3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float4x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float4x3_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/mat4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_mat4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_mat4x4.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_geometric.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../exponential.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_exponential.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double4x4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float4x4_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_matrix.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_double2x2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float2x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_float2x2_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/trigonometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_trigonometric.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/exponential.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/packing.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_packing.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_half.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_half.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/matrix.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/integer.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/func_integer.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/matrix_transform.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../vec2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../vec3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../vec4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/matrix_projection.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../gtc/constants.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/scalar_constants.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/scalar_constants.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/constants.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../trigonometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../matrix.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_projection.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/matrix_clip_space.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/scalar_constants.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_clip_space.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/matrix_transform.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/matrix_transform.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/matrix_transform.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../trigonometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../matrix.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/type_ptr.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../gtc/quaternion.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../gtc/constants.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../gtc/matrix_transform.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/qualifier.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_relational.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_float.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/quaternion_geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../exponential.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/quaternion_geometric.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/quaternion_common.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_float.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_quat.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../detail/type_mat3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../detail/type_mat4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../detail/type_vec3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../detail/type_vec4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../ext/vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../ext/quaternion_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/quaternion_relational.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../gtc/constants.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../gtc/matrix_transform.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/type_quat.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../trigonometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../ext/quaternion_common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/detail/../ext/quaternion_geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_float_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_double.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_double_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_geometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_trigonometric.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/scalar_constants.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/quaternion_trigonometric.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/quaternion_transform.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/quaternion_transform.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../detail/type_mat3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../detail/type_mat4x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../detail/type_vec3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../detail/type_vec4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/quaternion.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../exponential.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/epsilon.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../detail/setup.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../detail/qualifier.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/epsilon.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../vector_relational.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../common.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../gtc/vec1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_bool1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../detail/type_vec1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_bool1_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_float1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_float1_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_double1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_double1_precision.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_int1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_int1_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_int1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_uint1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../ext/vector_uint1_sized.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/./ext/../ext/vector_uint1.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat2x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat2x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat2x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat3x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat3x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat3x4.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat4x2.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/../mat4x3.hpp \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/glm/glm/gtc/type_ptr.inl \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/dependencies/../shader/Shader.h \
-  /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream

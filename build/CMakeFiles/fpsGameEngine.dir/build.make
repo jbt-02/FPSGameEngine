@@ -100,21 +100,53 @@ CMakeFiles/fpsGameEngine.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fpsGameEngine.dir/src/glad.c.s"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/glad.c -o CMakeFiles/fpsGameEngine.dir/src/glad.c.s
 
+CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o: CMakeFiles/fpsGameEngine.dir/flags.make
+CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o: /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image_impl.cpp
+CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o: CMakeFiles/fpsGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o -MF CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o.d -o CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o -c /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image_impl.cpp
+
+CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image_impl.cpp > CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.i
+
+CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/src/stb_image_impl.cpp -o CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.s
+
+CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o: CMakeFiles/fpsGameEngine.dir/flags.make
+CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o: /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.cpp
+CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o: CMakeFiles/fpsGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o -MF CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o.d -o CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o -c /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.cpp
+
+CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.cpp > CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.i
+
+CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jacobtrachsel/IdeaProjects/FPSGameEngine/shader/Shader.cpp -o CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.s
+
 # Object files for target fpsGameEngine
 fpsGameEngine_OBJECTS = \
 "CMakeFiles/fpsGameEngine.dir/src/main.cpp.o" \
-"CMakeFiles/fpsGameEngine.dir/src/glad.c.o"
+"CMakeFiles/fpsGameEngine.dir/src/glad.c.o" \
+"CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o" \
+"CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o"
 
 # External object files for target fpsGameEngine
 fpsGameEngine_EXTERNAL_OBJECTS =
 
 fpsGameEngine: CMakeFiles/fpsGameEngine.dir/src/main.cpp.o
 fpsGameEngine: CMakeFiles/fpsGameEngine.dir/src/glad.c.o
+fpsGameEngine: CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o
+fpsGameEngine: CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o
 fpsGameEngine: CMakeFiles/fpsGameEngine.dir/build.make
 fpsGameEngine: /opt/homebrew/lib/libglfw.3.4.dylib
 fpsGameEngine: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 fpsGameEngine: CMakeFiles/fpsGameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable fpsGameEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jacobtrachsel/IdeaProjects/FPSGameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fpsGameEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fpsGameEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

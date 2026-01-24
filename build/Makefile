@@ -129,6 +129,30 @@ fpsGameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/build
 .PHONY : fpsGameEngine/fast
 
+shader/Shader.o: shader/Shader.cpp.o
+.PHONY : shader/Shader.o
+
+# target to build an object file
+shader/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.o
+.PHONY : shader/Shader.cpp.o
+
+shader/Shader.i: shader/Shader.cpp.i
+.PHONY : shader/Shader.i
+
+# target to preprocess a source file
+shader/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.i
+.PHONY : shader/Shader.cpp.i
+
+shader/Shader.s: shader/Shader.cpp.s
+.PHONY : shader/Shader.s
+
+# target to generate assembly for a file
+shader/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/shader/Shader.cpp.s
+.PHONY : shader/Shader.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -177,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/stb_image_impl.o: src/stb_image_impl.cpp.o
+.PHONY : src/stb_image_impl.o
+
+# target to build an object file
+src/stb_image_impl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.o
+.PHONY : src/stb_image_impl.cpp.o
+
+src/stb_image_impl.i: src/stb_image_impl.cpp.i
+.PHONY : src/stb_image_impl.i
+
+# target to preprocess a source file
+src/stb_image_impl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.i
+.PHONY : src/stb_image_impl.cpp.i
+
+src/stb_image_impl.s: src/stb_image_impl.cpp.s
+.PHONY : src/stb_image_impl.s
+
+# target to generate assembly for a file
+src/stb_image_impl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fpsGameEngine.dir/build.make CMakeFiles/fpsGameEngine.dir/src/stb_image_impl.cpp.s
+.PHONY : src/stb_image_impl.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fpsGameEngine"
+	@echo "... shader/Shader.o"
+	@echo "... shader/Shader.i"
+	@echo "... shader/Shader.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/stb_image_impl.o"
+	@echo "... src/stb_image_impl.i"
+	@echo "... src/stb_image_impl.s"
 .PHONY : help
 
 
